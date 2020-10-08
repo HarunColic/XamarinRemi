@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Remi.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Broj Igraca"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontAttributes="Bold" FontSize="Large" />
+
+            <Entry x:Name="Players" Keyboard="Numeric" Margin="120,0,120,200" HorizontalTextAlignment="Center"  />
+            <Button Text="OK" Clicked="Button_Clicked" >
+                
+                
+            </Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

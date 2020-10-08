@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Remi.Tabela">
+    <ContentPage.Content>
+        <StackLayout x:Name="Pregled" >
+
+            <TableView Intent="Settings">
+                <TableRoot x:Name="Root">
+                    <TableSection x:Name="Ime" Title="Ime    Bodovi">
+                       
+                    </TableSection>
+                    
+                </TableRoot>
+            </TableView>
+
+            <Label x:Name="Runda" ></Label>
+            
+            <Button Text="Dodaj" Clicked="Button_Clicked" ></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
